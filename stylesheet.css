@@ -1,0 +1,207 @@
+
+body {
+    color: #3b36ff;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    line-height: 15px;
+    margin: 0;
+}
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.nav {
+padding-top: 30px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.nav a {
+font-size: 13px;
+padding: 8px;
+color: #3b36ff;
+text-decoration: none;
+margin-top: 2px;
+}
+
+.nav a:hover {
+	color: #fff;
+	background: #3b36ff;
+}
+
+.nav a.active {
+	background-color: #3b36ff;
+	color: #fff;
+
+}
+header {
+	margin: 0;
+	background-color: #fbf9f3;
+	padding-bottom: 10px;
+}
+
+header img{
+	width: 12%;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	padding-top: 20px;
+}
+
+h1{
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+.cv p{
+  margin-top: 0;
+}
+
+.projekt {
+	padding: 0px 12px;
+	border: dashed;
+	width: 100%;
+	max-width: 415px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 25px;
+
+}
+
+.projekt img{
+	width: 100%;
+
+}
+.wrapper {
+	padding-top: 50px;
+	padding-bottom: 25px;
+	float: left;
+}
+
+.bild{
+    max-width: 900px;
+    display: inline;
+}
+
+.bild img{
+	width: 35%;
+  margin-left: auto;
+    border: dashed;
+    padding: 12px;
+    float: right;
+    margin-right: 510px;
+    margin-top: -20px;
+
+}
+.ubersicht {
+	display:inline-block;
+	padding-left: 40px;
+}
+.ubersicht a:visited{
+	color: #3b36ff ;
+
+}
+.ubersicht a{
+	line-height: 18px;
+	text-decoration: none;
+}
+
+.cv {
+	margin-left: 50px;
+	margin-top: 50px;
+	padding: 5px 20px;
+
+	/*border: dashed;
+*/
+}
+.cv a{
+	text-decoration: none;
+}
+
+.info {
+	display: inline-block;
+}
+.about{
+	display: inline-block;
+	float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+
+h2 {font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	margin-bottom: 0;
+
+}
+
+
+@media (max-width: 950px) {
+.bild img{
+	width: 80%;
+    border: dashed;
+    margin-left: 20px;
+    float: none;
+	}
+	.ubersicht {
+		display: block;
+	}
+	.wrapper {
+	padding-top: 50px;
+	padding-bottom: 25px;
+	float: none; }
+}
+
+@media (max-width: 700px) {
+
+	.about{
+		display: block;
+    	width: 300px;
+    	float: none;
+    	margin-top: 50px;
+    	margin-left: 20px;
+	}
+
+	.about img {
+		width: 100%;
+		max-width: 300px;
+   		margin-right: auto;
+		margin-left: auto;
+    }
+
+    .cv {
+		margin-left: auto;
+		margin-top: auto;
+		padding: 5px 20px;
+		margin-top: 20px;
+
+	}
+
+}
+
+@media (max-width: 850px) {
+	.projekt{
+		width: 80%;
+	}
+
+}
+
+@media (max-width: 350px) {
+
+	.bild img{
+		width: 90%;
+		border: none;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+	}
+
+}
